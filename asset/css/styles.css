@@ -1,0 +1,95 @@
+/*css reset*/
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background: url("../images/image1.png") no-repeat;
+}
+.shadow {
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+.wrapper {
+    width:60%;
+    height: auto;
+    display:block;
+    margin:auto;
+    margin-top: 10%;
+    padding: 10%;
+    position: relative;
+}
+.bg1 {
+    background: url("../images/Picture5.png") no-repeat right bottom;
+    background-size: auto 100%;
+    background-color: #745583;
+}
+.bg2 {
+    background: url("../images/Picture2.png") no-repeat right;
+    background-size: auto 80%;
+    background-color: #745583;
+}
+.bg3 {
+    background: url("../images/Picture6.png") no-repeat right;
+    background-size: auto 80%;
+    background-color: #745583;
+}
+.bg4 {
+    background: url("../images/Picture3.png") no-repeat right;
+    background-size: auto 80%;
+    background-color: #745583;
+}
+.bg5 {
+    background: url("../images/Picture1.png") no-repeat right;
+    background-size: auto 80%;
+    background-color: #745583;
+}
+.bg6 {
+    background: url("../images/Picture4.png") no-repeat right;
+    background-size: auto 80%;
+    background-color: #745583;
+}
+.bg7 {
+    background: url("../images/Picture7.png") no-repeat right;
+    background-size: auto 80%;
+    background-color: #745583;
+}
+.do-you-know {
+    text-align: left;
+    color: #fff;
+    border-left: 2px solid white;
+    padding-left: 3px;
+    font-size: 18px;
+}
+.question {
+    color:white;
+    margin-bottom: 2em;
+}
+.wrapper-credit {
+    margin:auto;
+    margin: auto;
+    width: 60%;
+    text-align: center;
+}
+.answer {
+    display: inline;
+
+}
+
+.btn-answer {
+    display: inline-block;
+    border: 1px solid white;
+    padding:5px 10px;
+    width: 30%;
+    height: auto;
+    text-align: center;
+    background: #fff;
+    color: #745583;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.note {
+    color: #fff;
+    position: absolute;
+    bottom: 10%;
+    font-style: italic;
+}
